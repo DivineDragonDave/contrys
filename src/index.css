@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  overflow-y: scroll;
+}
+
+:root {
+  font-family: "Roboto", Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --primary: #2b3844;
+  --secondary: #202c36;
+  --text: #f2f2f2;
+  --text-secondary: #ffffffa1;
+  --chip-color: #444e56;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.light-theme {
+  --primary: #ffffff;
+  --secondary: #fbfbfb;
+  --text: #000000;
+  --text-secondary: #000000a1;
+  --chip-color: #ebebeb;
+}
+
+body {
+  color-scheme: light dark;
+  color: var(--text);
+  background-color: var(--secondary);
+}
+
+div {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

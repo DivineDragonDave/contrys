@@ -1,0 +1,107 @@
+.main-container {
+  max-width: 1200px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0 20px;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.country {
+  margin-top: 100px;
+  display: flex;
+  gap: 60px;
+  flex-direction: row;
+}
+
+.flag-container {
+  width: 545px;
+  height: auto;
+}
+
+.flag-skeleton {
+  border-radius: 10px;
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;
+  width: 100%;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 50%;
+  max-width: 300px;
+}
+
+.info-text-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.border-countries {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.border-countries-container {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  max-width: 300px;
+  gap: 5px;
+}
+
+@media screen and (max-width: 1040px) {
+  .info {
+    flex-direction: column;
+  }
+
+  .sub-container {
+    margin-bottom: 5px;
+  }
+
+  .border-countries {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .flag-container {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .flag-container {
+    width: 300px;
+  }
+
+  .country {
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 10px;
+  }
+}
