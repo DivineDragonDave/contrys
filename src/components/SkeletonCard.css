@@ -1,15 +1,15 @@
 .card-container {
   width: 270px;
-  height: 275px;
+  height: 276px;
   background-color: var(--primary);
-  border-radius: 5px;
+  border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px 6px rgba(0, 0, 0, 0.2);
 }
 
 .text-container {
   margin-left: 16px;
-  margin-top: 13px;
+  margin-top: 14px;
   width: auto;
 }
 
@@ -19,9 +19,9 @@
 }
 
 .p-container {
-  margin-top: 5px;
+  margin-top: 6px;
   display: flex;
-  gap: 5px;
+  gap: 6px;
 }
 
 .p-title {

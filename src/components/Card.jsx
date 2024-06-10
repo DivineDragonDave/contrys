@@ -7,7 +7,7 @@ import { CardActionArea } from "@mui/material";
 import PropTypes from "prop-types";
 import "./Card.css";
 
-export default function ActionAreaCard({
+export default function ActionCard({
   flagPng,
   countryName,
   population,
@@ -26,7 +26,7 @@ export default function ActionAreaCard({
           height="140"
           image={flagPng}
           alt={`Flag of ${countryName}`}
-          style={{ boxShadow: "0 5px 10px 5px rgba(0, 0, 0, 0.2)" }}
+          style={{ boxShadow: "0 6px 10px 6px rgba(0, 0, 0, 0.2)" }}
         />
         <CardContent>
           <Typography variant="h6" component="div">
@@ -53,7 +53,7 @@ export default function ActionAreaCard({
   );
 }
 
-ActionAreaCard.propTypes = {
+ActionCard.propTypes = {
   flagPng: PropTypes.string.isRequired,
   countryName: PropTypes.string.isRequired,
   population: PropTypes.number.isRequired,
@@ -61,6 +61,6 @@ ActionAreaCard.propTypes = {
   capital: PropTypes.arrayOf(PropTypes.string),
 };
 
-ActionAreaCard.defaultProps = {
+ActionCard.defaultProps = {
   capital: [],
 };

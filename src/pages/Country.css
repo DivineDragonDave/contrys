@@ -17,7 +17,7 @@ main {
 }
 
 .flag-container {
-  width: 545px;
+  width: 546px;
   height: auto;
 }
 
@@ -29,8 +29,8 @@ main {
 
 h1 {
   font-weight: 400;
-  font-size: 3rem;
-  margin-bottom: 17px;
+  font-size: 50px;
+  margin-bottom: 18px;
 }
 
 .info {

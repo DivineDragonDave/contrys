@@ -2,13 +2,13 @@ header {
   width: 100%;
   background-color: var(--primary);
   color: var(--text);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 .header-container {
   max-width: 1200px;
   margin: auto;
-  height: 65px;
+  height: 66px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,7 +27,7 @@ h2 {
 }
 
 .theme-logo {
-  width: 25px;
+  width: 26px;
 }
 
 .theme-button {
@@ -35,7 +35,7 @@ h2 {
 }
 
 @media screen and (max-width: 900px) {
-  .techover-logo {
+  .David-logo {
     display: none;
   }
 }

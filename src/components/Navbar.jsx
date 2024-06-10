@@ -18,7 +18,7 @@ const Navbar = () => {
 
         <div className="mid">
           <p>DEVELOPER</p>
-          <img src={logoSrc} alt="techover-logo" className="techover-logo" />
+          <img src={logoSrc} alt="David Ribbfors" className="David-logo" />
         </div>
         <IconButtons
           text={buttontext}

@@ -10,7 +10,7 @@ export default function SkeletonCard() {
         <Skeleton
           className="h2-skeleton"
           variant="text"
-          sx={{ fontSize: "25px" }}
+          sx={{ fontSize: "26px" }}
         />
         <div className="p-container">
           <div className="p-title">Population:</div>
